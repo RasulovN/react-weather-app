@@ -1,0 +1,76 @@
+/*FONTS*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+.topNav{
+    background-image: url('./img/bg.jpg');
+    background-size: cover;
+    opacity: 0.9;
+    width: 100%;
+    padding: 10px;
+    color: rgb(25, 3, 221);
+}
+
+h3{
+    text-align: center;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main-container {
+    background-image: url('./img/bg.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+}
+.search{
+    display: flex;
+    justify-content: center;
+}
+.search > input{
+    margin-top: 10px;
+    background: rgba(71, 87, 231, 0.329);
+    border-radius: 16px 0px 16px 0px;
+    border-bottom: 3px solid #df9e00;
+    width: 40%;
+    border: none;
+    border-bottom: 2px solid #060150;
+    padding: 20px;
+}
+.search > input:focus{
+    border: none;
+    box-shadow: none;
+    outline: none;
+    border-bottom: 2px solid #060150;
+    border-radius: 0px 16px 0px 16px;
+}
+
+.city{
+    background: rgba(223, 228, 219, 0.26);
+    width: 300px;
+    height: 350px;
+    box-shadow: 0 0 10px #d2d2d24d;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 5% auto;
+    text-align: center;
+}
+.details{
+    margin-top: 30px;
+}
+.details > .city-name{
+    font-weight: 700;
+    font-family: 'Ubuntu', sans-serif;
+}
+.details > .city-temp{
+    font-size: 20px;
+    margin: 15px 0;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: rgb(3, 18, 104);
+}
+
+.sun-night {
+    display: flex;
+    justify-content: space-around;
+}
